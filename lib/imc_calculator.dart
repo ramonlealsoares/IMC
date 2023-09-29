@@ -69,17 +69,17 @@ void main() {
  
   if (imc < 16) {
     print("${pessoa.nome} está com Magreza grave.");
-  } else if (imc == 16 && imc < 17) {
+  } else if (imc >= 16 && imc < 17) {
     print("${pessoa.nome} está com Magreza moderada.");
-  } else if (imc == 17 && imc < 18.5) {
+  } else if (imc >= 17 && imc < 18.5) {
     print("${pessoa.nome} está com Magreza leve.");
-  } else if (imc == 18.5 && imc < 25) {
+  } else if (imc >= 18.5 && imc < 25) {
     print("${pessoa.nome} está Saudável.");
-  } else if (imc == 25 && imc < 30) {
+  } else if (imc >= 25 && imc < 30) {
     print("${pessoa.nome} está com Sobrepeso.");
-  } else if (imc == 30 && imc < 35) {
+  } else if (imc >= 30 && imc < 35) {
     print("${pessoa.nome} está com Obesidade grau I.");
-  } else if (imc == 35 && imc < 40) {
+  } else if (imc >= 35 && imc < 40) {
     print("${pessoa.nome} está com Obesidade grau II (severa).");
   } else if (imc >= 40) {
     print("${pessoa.nome} está com obesidade grau III (mórbida).");
